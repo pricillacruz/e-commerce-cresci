@@ -1,0 +1,233 @@
+*,
+*:before,
+*:after {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* cultura da empresa */
+* {
+  margin: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  padding: 0 1rem;
+}
+
+.cards {
+  display: grid;
+  border: none !important;
+  margin-bottom: 1.5rem;
+}
+
+.cards h3 {
+  margin-bottom: 1rem;
+}
+
+.cards>div {
+  padding: 0.5rem;
+}
+
+@media(max-width:600px) {
+  .cards {
+    display: block;
+  }
+}
+
+/* fim da cultura da empresa */
+
+/* responsividade dos cards equipes */
+
+@media(min-width: 991px) {
+  .biel {
+    background-position: center;
+  }
+
+  .erick {
+    background-position: center;
+  }
+
+}
+
+@media(max-width: 768px) {
+  .ivy {
+    min-height: 24rem;
+  }
+
+  .biel {
+    min-height: 24rem;
+  }
+
+  #bielDireita {
+    display: none;
+  }
+
+  .erick {
+    min-height: 24rem;
+  }
+
+  #erickDireita {
+    display: none;
+  }
+
+  .pricilla {
+    min-height: 24rem;
+  }
+
+  .geisiane {
+    min-height: 24rem;
+  }
+}
+
+@media(min-width: 768px) {
+  #bielEsquerda {
+    display: none;
+  }
+
+  #erickEsquerda {
+    display: none;
+  }
+}
+
+/* fim da responsividade dos cards equipes */
+
+/* cards da equipe */
+
+.title {
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.card-block {
+  font-size: 1em;
+  position: relative;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+}
+
+.card {
+  font-size: 1em;
+  overflow: hidden;
+  padding: 5;
+  border: none !important;
+  border-radius: 1rem;
+  margin-top: 20px;
+}
+
+.ivy {
+  background-image: url("https://i.imgur.com/LaOdzBH.jpg?1");
+  background-repeat: no-repeat;
+  transition: 0.3ms;
+  background-size: cover;
+}
+
+.ivy:hover {
+  background-image: url("https://i.imgur.com/qoUl5Ya.png");
+}
+
+
+.biel {
+  background-image: url('https://avatars0.githubusercontent.com/u/8118710?s=400&u=536b69e1851e9352fb7a978c4cc8f5a2e2bbeb59&v=4');
+  background-repeat: no-repeat;
+  transition: 0.3ms;
+  background-size: cover;
+}
+
+.biel:hover {
+  background-image: url("../../assets/time/biel.jpg");
+}
+
+.geisiane {
+  background-image: url("https://i.imgur.com/LowC0GW.jpg");
+  background-repeat: no-repeat;
+  transition: 0.3ms;
+  background-size: cover;
+}
+
+.geisiane:hover {
+  background-image: url("https://i.imgur.com/fqZJZIH.jpg");
+}
+
+.erick {
+  background-image: url("../../assets/time/erick.jpg");
+  background-repeat: no-repeat;
+  transition: 0.3ms;
+  background-size: cover;
+}
+
+.erick:hover {
+  background-image: url("../../assets/time/erickpequeno.jpg");
+}
+
+.pricilla {
+  background-image: url("https://i.imgur.com/JwmGXJu.jpg");
+  background-repeat: no-repeat;
+  transition: 0.3ms;
+  background-size: cover;
+}
+
+.pricilla:hover {
+  background-image: url("https://i.imgur.com/5vVqVXg.jpg");
+}
+
+/* fim dos cards da equipe*/
+
+/* inicio dos botões github e linkedin*/
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  background: #f8f8f8;
+  margin: 5px;
+  transition: 1s;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 1s;
+  text-align: center;
+}
+
+.social-btn:hover {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: max-content;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: #333;
+}
+
+/* Fim */

@@ -1,0 +1,19 @@
+ .mont {
+    font-family: 'Montserrat';
+   
+  }
+
+.frete{
+    margin-bottom:14px;
+}
+
+.btn {
+    background-color: #c217e400;
+    color: #fff;
+    border-color: #ff4b8d;
+    background-color: #ff4b8d;
+}
+
+.link {
+    color: #ff4b8d;
+}

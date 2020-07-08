@@ -1,0 +1,39 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+label {
+  margin-bottom: -10%;
+}
+
+.btn {
+  background-color: #ff4b8d;
+  color: #ffffff;
+  border-color: #ff4b8d;
+}
+
+.btn:hover {
+  background-color: #ff4b8d;
+  color: #ffffff;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  background-color: #ff4b8d;
+  color: white;
+  box-shadow: none !important;
+}
+
+.letra {
+  padding: 7%;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-size: cover;
+  background: no-repeat;
+}

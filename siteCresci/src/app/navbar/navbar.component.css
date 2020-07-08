@@ -1,0 +1,115 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  cursor: pointer;
+}
+
+.hrosa:focus {
+  color: #ff4b8d !important;
+}
+
+#colorblack {
+  color: black;
+}
+
+#secondnavbar {
+  box-shadow: 0.1em 0.1em 1em rgb(250, 249, 249);
+  border: 0ch;
+}
+
+.hrosa {
+  font-weight: bold !important;
+  color: black !important;
+}
+
+#navdrop {
+  font-weight: bold !important;
+}
+
+.nav-link:hover,
+.hrosa:hover,
+#dropdown-item:hover,
+#navdrop:hover {
+  color: #ffffff !important;
+  background-color: #ff4b8d;
+  transition: 0.1s;
+}
+
+.nav-item:hover {
+  transition-duration: 0.5s;
+  border-radius: 0.5em;
+}
+
+.dropdown-menu {
+  background-color: rgb(255, 255, 255);
+  border: 0ch;
+}
+
+.navbar-brand {
+  font-size: 20px;
+	background: linear-gradient(
+		60deg,
+		hsl(0, 75%, 50%) 10%,
+		hsl(20, 75%, 50%) 10%,
+		hsl(20, 75%, 50%) 25%,
+		hsl(50, 75%, 50%) 25%,
+		hsl(50, 75%, 50%) 40%,
+		hsl(130, 75%, 50%) 40%,
+		hsl(130, 75%, 50%) 55%,
+		hsl(200, 75%, 50%) 55%,
+		hsl(200, 75%, 50%) 70%,
+		hsl(260, 75%, 50%) 70%,
+		hsl(260, 75%, 50%) 85%,
+		hsl(0, 75%, 50%) 85%
+	);
+
+	text-shadow: 0.5px -0.6vw #fff4;
+	color: #fff;
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: 30s BeProud linear infinite,
+  3s Always ease alternate infinite;
+}
+
+@keyframes BeProud {
+	100% { background-position: 100vw 0px; }
+}
+
+@keyframes Always {
+	100% { transform: scale(1.1);}
+}
+
+
+
+@media (max-width: 992px) {
+  #searchbar {
+    margin-left: 0em;
+    max-width: 200px;
+    margin-top: 0.625em;
+  }
+
+  #searchbutton {
+    margin-top: 0.625em;
+  }
+
+  li {
+    text-align: left;
+    padding-left: 0.3em;
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    margin-bottom: 0.325em;
+    margin-right: 0.325em;
+  }
+
+  #navitem1 {
+    margin-top: 0.625em;
+  }
+
+  .navbar-brand {
+    margin: 0 auto;
+  }
+}
